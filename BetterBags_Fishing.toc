@@ -1,0 +1,16 @@
+## Interface: 110105
+
+## Title: BetterBags - Fishing
+## Notes: Filter for Fishing poles, hats and more!
+## Author: Frostaphim-Xavius
+## Version: 11.1.5
+## IconTexture: Interface\Icons\inv_fishingpole_01
+
+## DefaultState: Enabled
+## Dependencies: BetterBags
+
+## X-Category: Bags & Inventory
+
+db.lua
+main.lua
+
