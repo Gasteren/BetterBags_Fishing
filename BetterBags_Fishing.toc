@@ -1,4 +1,4 @@
-## Interface: 110007, 110105
+## Interface: 110107, 110200
 
 ## Title: BetterBags - Fishing
 ## Notes: Filter for Fishing poles, hats and more!
