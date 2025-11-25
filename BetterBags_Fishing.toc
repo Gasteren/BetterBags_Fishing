@@ -1,8 +1,8 @@
-## Interface: 110107, 110200
+## Interface: 110205, 110207, 120000
 
 ## Title: BetterBags - Fishing
 ## Notes: Filter for Fishing poles, hats and more!
-## Version: 11.2
+## Version: 11.7
 ## Author: Frost-Lightbringer
 ## Group: Tools by: Frostaphim | Frost-Lightbringer
 
