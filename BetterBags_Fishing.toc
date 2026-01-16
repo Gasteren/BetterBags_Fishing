@@ -2,7 +2,7 @@
 
 ## Title: BetterBags - Fishing
 ## Notes: Filter for Fishing poles, hats and more!
-## Version: 11.7
+## Version: 12.0.0
 ## Author: Frost-Lightbringer
 ## Group: Tools by: Frostaphim | Frost-Lightbringer
 
