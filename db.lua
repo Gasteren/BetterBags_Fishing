@@ -142,5 +142,34 @@ addon.db = {
 		220135, --
 		220137, --
 		228954, -- Anglers guide to learn "find fish"
+		----------------------- Midnight -----------------------------
+		-- Poles
+		244711, -- Farstrider Hobbyist Rod 	| +55 Perception | +8 Midnight Fishing
+		244712, -- Sin'dorei Angler's Rod 	| +56 Perception | +18 Midnight Fishing
+		259179, -- Sin'dorei Reeler's Rod 	| +56 Perception | +18 Midnight Fishing
+		-- Hats
+		-- Boots
+		-- Lures
+		241147, -- Blood Hunter Lure
+		241145, -- Lucky Loa Lure
+		241149, -- Ominous Octopus Lure
+		241150, -- Sunwell Fish Lure
+
+		241148, -- Amani Angler's Ward | Anti Lure: Prevents Blood Hunter Spirits from spawning.
+		-- Enchants
+		262796, -- Midnight Angler's Grand Line | Double Treasure chance
+		262795, -- Angler's Bloomline
+		262793, -- Stranded Bloomline
+		262794, -- Weak Bloomline
+		262800, -- Angler's Glimmerline
+		262797, -- Shredded Glimmerline
+		262798, -- Stranded Glimmerline
+		262799, -- Weak Glimmerline
+		-- Other
+		255157, -- Abyss Angler's Fish Log 	| Increase Midnight Fishing skill by 3, max of 300.
+		262649, -- An Angler's Deep Dive	| Increase Midnight Fishing skill by 10, max of 300.
+		243343, -- Angler's Anomaly			| Release the Voidstorm creating an Oceanic Vortex to cast into.
+		-- Pet
+		260942, -- Bubbly Snapling
 	},
 }
