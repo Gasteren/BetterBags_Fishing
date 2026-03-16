@@ -1,0 +1,32 @@
+name: Upload to CurseForge
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create zip
+        run: |
+          mkdir BetterBags_Fishing
+          cp *.lua *.toc BetterBags_Fishing/
+          zip -r BetterBags_Fishing.zip BetterBags_Fishing
+
+      - name: Upload to CurseForge
+        uses: itsmeow/curseforge-upload@v3
+        with:
+          token: "${{ secrets.BETTERBAGS_FISHING }}"
+          project_id: "964959"
+          game_endpoint: "wow"
+          file_path: "BetterBags_Fishing.zip"
+          game_versions: "12.0.5"
+          release_type: "release"
+          display_name: "BetterBags_Fishing - ${{ github.event.head_commit.timestamp }}"
+          changelog: "${{ github.event.head_commit.message }}"
+          changelog_type: "markdown"
