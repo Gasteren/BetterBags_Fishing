@@ -148,6 +148,7 @@ addon.db = {
 		244712, -- Sin'dorei Angler's Rod 	| +56 Perception | +18 Midnight Fishing
 		259179, -- Sin'dorei Reeler's Rod 	| +56 Perception | +18 Midnight Fishing
 		-- Hats
+		239638, -- Elegant Artisan's Fishing Hat | +11 Midnight fishing
 		-- Boots
 		-- Lures
 		241147, -- Blood Hunter Lure
