@@ -4,6 +4,7 @@
 ## Notes: Filter for Fishing poles, hats and more!
 ## Version: 12.0.5
 ## Author: Frost-Lightbringer
+## X-Curse-Project-ID: 964959
 
 ## IconTexture: Interface\Icons\inv_fishingpole_01
 
