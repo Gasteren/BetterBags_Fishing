@@ -1,6 +1,6 @@
 # BetterBags: Fishing
 
-> ⚠️ **Important:** This addon requires the **BetterBags CORE** addon to function.
+> ⚠️ **Important:** This addon requires the **BetterBags** addon to function.
 
 ---
 
