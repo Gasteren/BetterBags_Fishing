@@ -2,7 +2,7 @@
 
 ## Title: BetterBags - Fishing
 ## Notes: Filter for Fishing poles, hats and more!
-## Version: 12.1
+## Version: 12.1.0
 ## Author: Frost-Lightbringer
 ## X-Curse-Project-ID: 964959
 
