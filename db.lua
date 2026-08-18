@@ -147,6 +147,7 @@ addon.db = {
 		244711, -- Farstrider Hobbyist Rod 	| +55 Perception | +8 Midnight Fishing
 		244712, -- Sin'dorei Angler's Rod 	| +56 Perception | +18 Midnight Fishing
 		259179, -- Sin'dorei Reeler's Rod 	| +56 Perception | +18 Midnight Fishing
+		244790, -- The Coiled Huntress		| +55 Perception | +18 Midnight Fishing
 		-- Hats
 		239638, -- Elegant Artisan's Fishing Hat | +11 Midnight fishing
 		-- Boots
