@@ -2,7 +2,11 @@
 local _, addon = ...
 
 ----------------------------------------- Database -----------------------------------------
-addon.db = {
+-- addon.db.Retail  = full item list, used on the live retail client
+-- addon.db.Forever = vanilla-only subset, used on WoW: Forever (pre-Molten Core, no expansions)
+addon.db = {}
+
+addon.db.Retail = {
 	["Fishing"] = {
 		-- Fishing Poles
 		133755, -- Underlight angler
@@ -58,72 +62,72 @@ addon.db = {
 		34861, -- Sharpened Fish Hook - +9 fishing
 		46006, -- Glow Worm - +9 fishing
 		68049, -- Heat-Treated Spinning Lure - +10 fishing
-		133725, -- 
-		133726, -- 
-		133727, -- 
-		133701, -- 
-		133702, -- 
-		133703, -- 
-		133704, -- 
-		133733, -- 
-		133732, -- 
-		133731, -- 
-		133709, -- 
-		133710, -- 
-		133712, -- 
-		133711, -- 
-		133736, -- 
-		133734, -- 
-		133735, -- 
-		133713, -- 
-		133714, -- 
-		133715, -- 
-		133716, -- 
-		133730, -- 
-		133728, -- 
-		133729, -- 
-		133705, -- 
-		133707, -- 
-		133708, -- 
-		133739, -- 
-		133738, -- 
-		133737, -- 
-		133720, -- 
-		133719, -- 
-		139175, -- 
-		136376, -- 
-		136375, -- 
-		141975, -- 
-		138777, -- 
-		133717, -- 
-		133741, -- 
-		133740, -- 
-		133742, -- 
-		133723, -- 
-		133721, -- 
-		133722, -- 
-		133724, -- 
-		133795, -- 
-		128229, -- 
-		127994, -- 
-		124674, -- 
-		122742, -- 
-		110294, -- 
-		110293, -- 
-		110292, -- 
-		110291, -- 
-		110290, -- 
-		110289, -- 
-		110274, -- 
-		146848, -- 
-		136377, -- 
-		173038, -- 
-		173040, -- 
-		173041, -- 
-		173039, -- 
-		173042, -- 
-		173043, -- 
-		180168, -- 
+		133725, --
+		133726, --
+		133727, --
+		133701, --
+		133702, --
+		133703, --
+		133704, --
+		133733, --
+		133732, --
+		133731, --
+		133709, --
+		133710, --
+		133712, --
+		133711, --
+		133736, --
+		133734, --
+		133735, --
+		133713, --
+		133714, --
+		133715, --
+		133716, --
+		133730, --
+		133728, --
+		133729, --
+		133705, --
+		133707, --
+		133708, --
+		133739, --
+		133738, --
+		133737, --
+		133720, --
+		133719, --
+		139175, --
+		136376, --
+		136375, --
+		141975, --
+		138777, --
+		133717, --
+		133741, --
+		133740, --
+		133742, --
+		133723, --
+		133721, --
+		133722, --
+		133724, --
+		133795, --
+		128229, --
+		127994, --
+		124674, --
+		122742, --
+		110294, --
+		110293, --
+		110292, --
+		110291, --
+		110290, --
+		110289, --
+		110274, --
+		146848, --
+		136377, --
+		173038, --
+		173040, --
+		173041, --
+		173039, --
+		173042, --
+		173043, --
+		180168, --
 		194725, --
 		----------------------- War within -----------------------------
 		224752, -- Soaked Journal Entry (increase fishing skill by 10 stacks till 300)
@@ -173,5 +177,34 @@ addon.db = {
 		243343, -- Angler's Anomaly			| Release the Voidstorm creating an Oceanic Vortex to cast into.
 		-- Pet
 		260942, -- Bubbly Snapling
+	},
+}
+
+-- WoW: Forever runs Blizzard's permanent vanilla mode (pre-Molten Core, no expansions),
+-- so only items that actually existed in original 1.x WoW belong here. Anything from
+-- TBC onward will report as "not existing" server-side even though the Forever client's
+addon.db.Forever = {
+	["Fishing"] = {
+		-- Fishing Poles
+		6256, -- Fishing Pole - no skill increase
+		6365, -- Strong Fishing Pole - +5 fishing
+		6366, -- Darkwood Fishing Pole - +8 fishing
+		6367, -- Big Iron Fishing Pole - +10 fishing
+		19970, -- Arcanite Fishing Pole - +14 fishing
+		19022, -- Nat Pagle's Extreme Angler FC-5000 +10 fishing
+		12225, -- Blump Family Fishing Pole - +3 fishing | not obtainable, but a valid vanilla item
+		-- Hats
+		19972, -- Lucky Fishing Hat - +5 fishing and +4 stamina
+		-- Boots
+		19969, -- Nat Pagle's Extreme Anglin' Boots - +5 fishing and +3 stamina
+		-- Other
+		19971, -- High Test Eternium Fishing Line - +5 fishing
+		19979, -- Hook of the Master Angler - Breath underwater and increase swim speed
+		6529, -- Shiny Bauble - +3 fishing
+		6530, -- Nightcrawlers - +5 fishing
+		6811, -- Aquadynamic Fish Lens - +5 fishing
+		6532, -- Bright Baubles - +7 fishing
+		7307, -- Flesh Eating Worm - +7 fishing
+		6533, -- Aquadynamic Fish Attractor - +9 fishing
 	},
 }
